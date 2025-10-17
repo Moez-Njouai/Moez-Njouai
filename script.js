@@ -15,7 +15,7 @@ const content = {
     hero: {
       title: "Moez Njouai",
       subtitle: "Industrial Contractor, Welding Expert & Business Consultant",
-      description: "With over 10 years of international experience across Tunisia, Canada, and the UAE, I specialize in advanced welding, shipbuilding, and industrial maintenance solutions. As the founder of Protek Dock and Ironnetix, I combine hands-on technical expertise with strategic business insight to help factories, workshops, and professionals achieve lasting growth. Today, I share my passion through training programs, consulting, and tailored industrial projects that turn ideas into real-world results.",
+      description: "With over 15 years of international experience across Tunisia, Canada, and the UAE, I specialize in advanced welding, shipbuilding, and industrial maintenance solutions. As the founder of Protek Dock and Ironnetix, I combine hands-on technical expertise with strategic business insight to help factories, workshops, and professionals achieve lasting growth. Today, I share my passion through training programs, consulting, and tailored industrial projects that turn ideas into real-world results.",
       placeholder: "Get started with industrial excellence",
       cta: "Contact Now"
     },
@@ -140,7 +140,7 @@ const content = {
     hero: {
       title: "معز نجوعي",
       subtitle: "مقاول صناعي، خبير لحام، ومستشار أعمال",
-      description: "بخبرةٍ تمتد لأكثر من 10 اعوام في مجالات اللحام المتقدم، وصناعة السفن، وحلول الصيانة الصناعية في كلٍّ من تونس، وكندا، والإمارات العربية المتحدة، أقدّم خبرتي كمؤسِّس لشركتَي Protek Dock وIronnetix، جامعًا بين المهارة التقنية العملية والرؤية الاستراتيجية في إدارة الأعمال. أعمل على مساعدة المصانع وورش العمل والمهنيين على تحقيق نموٍّ مستدام، وأشارك شغفي اليوم من خلال برامج التدريب، والاستشارات، والمشروعات الصناعية المصممة خصيصًا لتحويل الأفكار إلى نتائج ملموسة على أرض الواقع.",
+      description: "بخبرةٍ تمتد لأكثر من 15 عاما في مجالات اللحام المتقدم، وصناعة السفن، وحلول الصيانة الصناعية في كلٍّ من تونس، وكندا، والإمارات العربية المتحدة، أقدّم خبرتي كمؤسِّس لشركتَي Protek Dock وIronnetix، جامعًا بين المهارة التقنية العملية والرؤية الاستراتيجية في إدارة الأعمال. أعمل على مساعدة المصانع وورش العمل والمهنيين على تحقيق نموٍّ مستدام، وأشارك شغفي اليوم من خلال برامج التدريب، والاستشارات، والمشروعات الصناعية المصممة خصيصًا لتحويل الأفكار إلى نتائج ملموسة على أرض الواقع.",
       placeholder: "ابدأ رحلتك نحو التميّز الصناعي",
       cta: "تواصل معي",
     },
@@ -563,4 +563,5 @@ window.addEventListener("scroll", () => {
 // Initialize
 document.addEventListener("DOMContentLoaded", () => {
   updateContent()
+
 })
