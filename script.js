@@ -59,7 +59,7 @@ const content = {
     why: {
       title: "Why Choose Me",
       reasons: [
-        "Over 10 years of international experience (Tunisia – Canada – Gulf)",
+        "Over 15 years of international experience (Tunisia – Canada – Gulf)",
         "Combination of hands-on skills and management vision",
         "Mobile workshops and immediate field services",
         "Certified in safety and industrial maintenance",
@@ -172,7 +172,7 @@ const content = {
     why: {
       title: "لماذا تختارني",
       reasons: [
-        "أكثر من 10 سنين خبرة دولية (تونس – كندا – الخليج)",
+        "أكثر من 15 سنة خبرة دولية (تونس – كندا – الخليج)",
         "مزيج بين المهارة اليدوية والرؤية الإدارية",
         "ورش متنقلة وخدمات ميدانية فورية",
         "شهادات معتمدة في السلامة والصيانة الصناعية",
@@ -565,3 +565,4 @@ document.addEventListener("DOMContentLoaded", () => {
   updateContent()
 
 })
+
