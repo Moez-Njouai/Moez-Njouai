@@ -14,14 +14,14 @@ const content = {
     },
     hero: {
       title: "Moez Njouai",
-      subtitle: "Industrial Contractor, Welding Expert & Business Consultant",
-      description: "With over 15 years of international experience across Tunisia, Canada, and the UAE, I specialize in advanced welding, shipbuilding, and industrial maintenance solutions. As the founder of Protek Dock and Ironnetix, I combine hands-on technical expertise with strategic business insight to help factories, workshops, and professionals achieve lasting growth. Today, I share my passion through training programs, consulting, and tailored industrial projects that turn ideas into real-world results.",
+      subtitle: "Industrial Business Developer & Technical Operations Consultant | Maritime & Heavy Industries",
+      description: "Bridging the gap between executive strategy and field execution. I help high-end manufacturing, shipbuilding, and heavy industry sectors eliminate production bottlenecks, reduce waste, and enforce uncompromising quality control.A strategic Industrial Business Developer with over 15 years of hands-on and operational expertise in heavy manufacturing, marine maintenance, and high-precision structural fabrication. Operating at the intersection of business management and advanced technical execution, I specialize in technical subcontracting coordination, QA/QC auditing, and complex project management. My approach is strictly data-driven and results-oriented. By combining technical mastery (Level 3 standards, WPS, AWS, ISO compliance) with an Entrepreneurship Diploma (Ajman University) and advanced certifications in Project Management, Data Analytics, and AI Engineering, I integrate modern operational workflows into traditional heavy industries.",
       placeholder: "Get started with industrial excellence",
       cta: "Contact Now"
     },
     about: {
       title: "About Me",
-      text: "Started my industrial journey in 2009 with training in the Tunisian Navy in welding and shipbuilding, then continued developing my skills in international training centers before working at the Italian company W Magic. After moving to Canada, I gained extensive experience in aluminum boat manufacturing with Bateau Princecraft, then founded my own company Protek Dock as an industrial contractor. Today, I work as a certified consultant and trainer in aluminum and stainless steel, providing smart solutions for industrial maintenance and development.",
+      text: "​Operational Excellence & Risk Mitigation: Proven track record of maintaining a < 3% weld rejection rate and a zero HSE accident record for 5 consecutive years in high-stakes environments. Strategic Project Coordination: Expertise in managing plant shutdowns, multi-disciplinary teams, and complex technical sub-assemblies for premium sectors, including superyachts and heavy industrial infrastructure. Global Mobility & Communication: Trilingual (Native Arabic, C2 French, Professional English, actively learning German), enabling seamless coordination between executive boards and international field contractors across Europe and the GCC. I do not just oversee projects; I engineer operational reliability and safeguard your profit margins through uncompromising quality assurance.",
     },
     experience: {
       title: "Professional Experience",
