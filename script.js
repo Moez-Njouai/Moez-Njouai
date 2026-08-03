@@ -83,8 +83,9 @@ const content = {
         {
           title: "Business & Development",
           list: [
-            'Business Course from "A3mal Business"',
             "Entrepreneurship Certificate from Ajman University",
+            "Artificial Intelligence Essentials V2 IBM",
+            "Project Management Fundamentals from Microsoft"
           ],
         },
       ],
@@ -196,8 +197,9 @@ const content = {
         {
           title: "الأعمال والتطوير",
           list: [
-            'دورة أعمال من "اعمل بيزنس"',
             "شهادة ريادة الاعمال من جامعة عجمان",
+            "أساسيات الذكاء الاصطناعي (الإصدار الثاني V2) من IBM",
+            "أساسيات إدارة المشاريع من Microsoft"
           ],
         },
       ],
