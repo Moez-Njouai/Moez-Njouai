@@ -297,6 +297,7 @@ let currentSlide = 0
 
 // DOM Elements
 const html = document.documentElement
+const body = document.body
 const menuBtn = document.getElementById("menuBtn")
 const mobileMenu = document.getElementById("mobileMenu")
 const langBtn = document.getElementById("langBtn")
