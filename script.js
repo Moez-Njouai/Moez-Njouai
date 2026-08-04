@@ -1,5 +1,169 @@
 // Language Content
 const content = {
+  fr: {
+  nav: {
+    brand: "Moez Njouai",
+    home: "Accueil",
+    about: "À propos",
+    experience: "Expérience",
+    services: "Services",
+    why: "Pourquoi me choisir",
+    certifications: "Certifications",
+    testimonials: "Témoignages",
+    contact: "Contact",
+  },
+
+  hero: {
+    title: "Moez Njouai",
+    subtitle: "Développeur d’affaires industrielles & Consultant en opérations techniques | Industries maritimes et lourdes",
+    description:
+      "Je fais le lien entre la stratégie de direction et l’exécution sur le terrain. J’aide les entreprises de fabrication de pointe, de construction navale et des industries lourdes à éliminer les goulots d’étranglement de la production, à réduire les pertes et à garantir un contrôle qualité irréprochable. Développeur d’affaires industrielles stratégique, je possède plus de 15 ans d’expérience pratique et opérationnelle dans la fabrication lourde, la maintenance navale et la fabrication de structures de haute précision. Spécialisé dans la coordination de la sous-traitance technique, les audits QA/QC et la gestion de projets complexes, j’adopte une approche entièrement axée sur les données et les résultats. Grâce à ma maîtrise des normes techniques (Niveau 3, WPS, AWS, ISO), à mon diplôme en entrepreneuriat de l’Université d’Ajman ainsi qu’à mes certifications en gestion de projet, analyse de données et ingénierie de l’intelligence artificielle, j’intègre les méthodes opérationnelles modernes aux industries lourdes traditionnelles.",
+    placeholder: "Commencez votre parcours vers l’excellence industrielle",
+    cta: "Me contacter",
+  },
+
+  about: {
+    title: "À propos de moi",
+    text:
+      "Excellence opérationnelle et gestion des risques : un historique démontré avec un taux de rejet des soudures inférieur à 3 % et zéro accident HSE pendant cinq années consécutives dans des environnements industriels à haut risque. Coordination stratégique de projets : expertise dans la gestion des arrêts d’usine, des équipes multidisciplinaires et des sous-ensembles techniques complexes pour des secteurs haut de gamme, notamment les superyachts et les infrastructures industrielles lourdes. Mobilité internationale et communication : trilingue (arabe langue maternelle, français niveau C2, anglais professionnel) et actuellement en apprentissage de l’allemand, ce qui me permet d’assurer une coordination fluide entre les directions exécutives et les sous-traitants internationaux en Europe et dans les pays du Golfe. Je ne me contente pas de superviser des projets : je conçois une fiabilité opérationnelle durable et protège vos marges grâce à une assurance qualité sans compromis.",
+  },
+
+  experience: {
+    title: "Expérience professionnelle",
+    timeline: [
+      {
+        year: "2009 – 2011",
+        role: "Formation dans la Marine tunisienne",
+        desc: "J’ai débuté ma carrière au sein de la Marine tunisienne, où j’ai été formé au soudage, à la construction navale et aux industries métalliques lourdes. Cette expérience a forgé ma discipline, ma précision et mon expertise technique selon des normes industrielles exigeantes.",
+      },
+      {
+        year: "2012 – 2014",
+        role: "Formation de technicien en soudage",
+        desc: "J’ai suivi un programme international de technicien en soudage qui a approfondi mes connaissances des procédés TIG, MIG et ARC. Cette formation m’a apporté les compétences techniques avancées et les connaissances en sécurité nécessaires aux environnements industriels complexes.",
+      },
+      {
+        year: "2015 – 2018",
+        role: "W Magic Italie",
+        desc: "J’ai rejoint W Magic, une entreprise italienne de construction navale, où j’ai participé à la fabrication de structures de grands navires. Cette expérience a renforcé mon savoir-faire et m’a familiarisé avec l’innovation industrielle européenne et ses normes de qualité.",
+      },
+      {
+        year: "2019 – 2023",
+        role: "Bateau Princecraft Canada",
+        desc: "Au Canada, je me suis spécialisé dans la fabrication de bateaux en aluminium chez Bateau Princecraft. En dirigeant plusieurs projets de construction navale, j’ai renforcé mes compétences en leadership et développé une vision industrielle à l’échelle internationale.",
+      },
+      {
+        year: "2023 – Aujourd’hui",
+        role: "Fondateur & Directeur",
+        desc: "En tant que fondateur et directeur, je dirige les deux entreprises afin de fournir des solutions innovantes en soudage, construction navale et maintenance industrielle. Mon rôle allie expertise technique, stratégie d’entreprise et accompagnement des professionnels pour favoriser une croissance industrielle durable.",
+      },
+      {
+        year: "Actuel",
+        role: "Formateur certifié & Consultant industriel",
+        desc: "En tant que formateur certifié et consultant industriel, je propose des formations spécialisées en fabrication d’aluminium et d’acier inoxydable. J’accompagne les professionnels et les entreprises dans le développement de leurs compétences techniques et de leurs performances industrielles grâce à des formations pratiques et des conseils stratégiques.",
+      },
+    ],
+  },
+
+  services: {
+    title: "Services",
+    list: [
+      {
+        title: "Soudage industriel & Maintenance",
+        desc: "Services de soudage et de maintenance industrielle sur site (Aluminium – Acier inoxydable – Acier)",
+      },
+      {
+        title: "Support à l’industrie agroalimentaire",
+        desc: "Installation et maintenance de lignes de production alimentaire selon les normes d’hygiène industrielle",
+      },
+      {
+        title: "Construction navale & Structures métalliques",
+        desc: "Fabrication de navires et de structures métalliques lourdes",
+      },
+      {
+        title: "Formation & Coaching",
+        desc: "Formation professionnelle pour particuliers et entreprises sur les techniques de l’aluminium et de l’acier inoxydable",
+      },
+      {
+        title: "Conseil en affaires & Industrie",
+        desc: "Conseil en développement et croissance pour les usines et entreprises industrielles",
+      },
+    ],
+  },
+
+  why: {
+    title: "Pourquoi me choisir",
+    reasons: [
+      "Plus de 15 ans d’expérience internationale (Tunisie – Canada – Pays du Golfe)",
+      "Une combinaison unique d’expertise terrain et de vision managériale",
+      "Ateliers mobiles et interventions rapides sur site",
+      "Certifié en sécurité et maintenance industrielle",
+      "Formateur certifié avec une solide expérience pratique",
+    ],
+  },
+
+  certifications: {
+    title: "Certifications professionnelles",
+    subtitle: "Certifications internationales et formations spécialisées",
+    cards: [
+      {
+        title: "Sécurité & Conformité",
+        list: [
+          "Certification en santé et sécurité au travail – Québec, Canada",
+          "Certification Travaux à chaud",
+          "Certification Travail en hauteur",
+          "WHMIS 2015",
+          "Certification Lockout / Cadenassage",
+        ],
+      },
+      {
+        title: "Affaires & Développement",
+        list: [
+          "Certificat en entrepreneuriat – Université d’Ajman",
+          "Artificial Intelligence Essentials V2 – IBM",
+          "Project Management Fundamentals – Microsoft",
+        ],
+      },
+    ],
+  },
+
+  testimonials: {
+    title: "Témoignages de clients",
+    list: [
+      {
+        name: "Ahmed R.",
+        role: "PDG, SteelPro Manufacturing Ltd.",
+        text: "J’ai été impressionné par la capacité de Moez à comprendre rapidement nos défis et à élaborer une stratégie de croissance réellement efficace. Son professionnalisme, son expertise approfondie et son accompagnement sur le terrain ont eu un impact durable.",
+      },
+      {
+        name: "Sarah D.",
+        role: "Vice-présidente du développement des affaires",
+        text: "Nous avons fait appel à Moez pour optimiser notre pipeline de ventes B2B. En seulement six mois, notre taux de conversion s’est considérablement amélioré. Son approche stratégique et son réseau solide dans le secteur de l’acier nous ont ouvert de nouvelles opportunités.",
+      },
+      {
+        name: "Mark L.",
+        role: "Directeur des ventes internationales, Titan Steel",
+        text: "Collaborer avec Moez a transformé notre activité de distribution d’acier. Sa connaissance approfondie du secteur et sa vision stratégique nous ont permis d’identifier de nouvelles opportunités et de nous développer sur les marchés internationaux.",
+      },
+    ],
+  },
+
+  contact: {
+    title: "Contact",
+    subtitle: "Vous avez un projet, une usine ou une idée nécessitant une expertise industrielle ?",
+    description: "Contactez-moi pour discuter de l’amélioration de vos opérations ou du développement de votre production.",
+    addressLabel: "Adresse",
+    address: "238 Rue Catherine, Victoriaville, QC G6T 0Z5, Canada",
+    phoneLabel: "Téléphone",
+    phone: "+4182628611",
+    emailLabel: "E-mail",
+    email: "contact@ironnetix.com",
+    cta: "Envoyer un message",
+  },
+
+  footer: {
+    rights: "© 2025 Moez Njouai – Tous droits réservés",
+  },
+},
   en: {
     nav: {
       brand: "Moez Njouai",
@@ -124,130 +288,15 @@ const content = {
     },
     footer: {
       rights: "© 2025 Moez Njouai – All Rights Reserved",
-    },
-  },
-  ar: {
-    nav: {
-      brand: "معز نجوعي",
-      home: "الرئيسية",
-      about: "من أنا",
-      experience: "الخبرات",
-      services: "الخدمات",
-      why: "لماذا أنا",
-      certifications: "الشهادات",
-      testimonials: "آراء العملاء",
-      contact: "اتصل بي",
-    },
-    hero: {
-      title: "معز نجوعي",
-      subtitle: "مطور أعمال صناعية ومستشار للعمليات الفنية | الصناعات البحرية والصناعات الثقيلة",
-      description: "أسدّ الفجوة بين الاستراتيجية التنفيذية والتطبيق الميداني، وأساعد قطاعات التصنيع المتقدم وبناء السفن والصناعات الثقيلة على إزالة اختناقات الإنتاج، وتقليل الهدر، وتعزيز مراقبة الجودة. أمتلك أكثر من 15 عامًا من الخبرة في تطوير الأعمال الصناعية والعمليات التشغيلية، مع تخصص في تنسيق المقاولين الفنيين، وضمان الجودة (QA/QC)، وإدارة المشاريع المعقدة. أعتمد على نهج قائم على البيانات يجمع بين الخبرة الفنية وفق معايير Level 3 وWPS وAWS وISO، ودبلوم ريادة الأعمال من Ajman University، وشهادات في إدارة المشاريع وتحليل البيانات وهندسة الذكاء الاصطناعي، لدمج أساليب التشغيل الحديثة في الصناعات الثقيلة التقليدية.",
-      placeholder: "ابدأ رحلتك نحو التميّز الصناعي",
-      cta: "تواصل معي",
-    },
-    about: {
-      title: "من أنا",
-      text: "التميز التشغيلي وإدارة المخاطر: سجل حافل بالحفاظ على معدل رفض للحامات يقل عن 3%، مع تحقيق صفر حوادث في مجال الصحة والسلامة والبيئة (HSE) لمدة خمس سنوات متتالية في بيئات عمل عالية الخطورة. التنسيق الاستراتيجي للمشاريع: خبرة في إدارة عمليات الإغلاق والصيانة الشاملة للمصانع (Plant Shutdowns)، وقيادة فرق عمل متعددة التخصصات، والإشراف على التجميعات الفنية المعقدة للمشاريع في القطاعات المتقدمة، بما في ذلك اليخوت الفاخرة والبنية التحتية للصناعات الثقيلة. القدرة على العمل والتواصل الدولي: أجيد ثلاث لغات؛ العربية (اللغة الأم)، والفرنسية (مستوى C2)، والإنجليزية (احترافية)، مع مواصلة تعلم الألمانية، مما يتيح تنسيقًا سلسًا بين الإدارات التنفيذية والمقاولين الميدانيين الدوليين في أوروبا ودول مجلس التعاون الخليجي.",
-    },
-    experience: {
-      title: "الخبرات العملية",
-      timeline: [
-        { year: "2009 – 2011", role: "تدريب في الجيش البحري التونسي", desc: "بدأت رحلتي المهنية في البحرية التونسية، حيث تلقيت تدريباً في مجالات اللحام، وصناعة السفن، والصناعات المعدنية الثقيلة. هذه التجربة أرست أسس الانضباط والدقة والخبرة التقنية لديّ وفقاً لأعلى المعايير الصناعية الصارمة." },
-        { year: "2012 – 2014", role: "دورة تقني لحام", desc: "التحقت ببرنامج دولي لتقنيات اللحام المتقدمة، مما عمّق معرفتي بأساليب اللحام مثل TIG وMIG وARC. وقد زوّدني هذا التدريب بالمهارات التقنية ومهارات السلامة اللازمة للعمل في بيئات صناعية معقدة ومتنوعة." },
-        { year: "2015 – 2018", role: "شركة W Magic الإيطالية", desc: "انضممت إلى شركة W Magic الإيطالية المتخصصة في بناء السفن، حيث شاركت في تنفيذ هياكل بحرية ضخمة. وخلال هذه المرحلة، طوّرت مهارتي الحرفية وتعرّفت على الابتكار الصناعي الأوروبي ومعاييره العالية للجودة." },
-        { year: "2019 – 2023", role: "شركة Bateau Princecraft الكندية", desc: "في كندا، تخصصت في تصنيع السفن المصنوعة من الألومنيوم ضمن شركة Bateau Princecraft. توليت قيادة مشروعات في مجال التصنيع البحري، مما عزّز مهاراتي القيادية ووسّع رؤيتي الصناعية العالمية." },
-        { year: "2023 – الآن", role: "مؤسس ومدير", desc: "بصفتي مؤسساً ومديراً، أقود شركتَي Protek Dock وIronnetix في تقديم حلول مبتكرة في مجالات اللحام، وصناعة السفن، والصيانة الصناعية. يجمع دوري بين الخبرة التقنية والرؤية الاستراتيجية والإشراف على تطوير الكفاءات الصناعية لتحقيق نمو مستدام للعملاء والمهنيين." },
-        { year: "حالياً", role: "مدرب ومستشار معتمد", desc: "بصفتي مدرباً ومستشاراً صناعياً معتمداً، أقدم دورات تدريبية متخصصة في تصنيع الألومنيوم والستانلس ستيل. أساعد المهنيين والشركات على تطوير مهاراتهم التقنية وأدائهم الصناعي من خلال التدريب العملي والاستشارات الصناعية الاستراتيجية." },
-      ],
-    },
-    services: {
-      title: "الخدمات",
-      list: [
-        { title: "لحام وصيانة صناعية", desc: "خدمات لحام وصيانة صناعية ميدانية (ألومنيوم – ستانلس – حديد)" },
-        { title: "دعم الصناعات الغذائية", desc: "تركيب وصيانة خطوط إنتاج غذائية بمعايير النظافة الصناعية" },
-        { title: "تصنيع السفن والهياكل المعدنية", desc: "تصنيع وهياكل السفن والمنشآت المعدنية الثقيلة" },
-        { title: "تدريب وتطوير", desc: "تدريب مهني للأفراد والمؤسسات في تقنيات الألومنيوم والستانلس" },
-        { title: "استشارات أعمال وصناعية", desc: "استشارات نمو وتطوير للمصانع والشركات الصناعية" },
-      ],
-    },
-    why: {
-      title: "لماذا تختارني",
-      reasons: [
-        "أكثر من 15 سنة خبرة دولية (تونس – كندا – الخليج)",
-        "مزيج بين المهارة اليدوية والرؤية الإدارية",
-        "ورش متنقلة وخدمات ميدانية فورية",
-        "شهادات معتمدة في السلامة والصيانة الصناعية",
-        "مدرب معتمد بخبرة ميدانية حقيقية",
-      ],
-    },
-    certifications: {
-      title: "الشهادات المهنية",
-      subtitle: "اعتمادات دولية وتدريب متخصص",
-      cards: [
-        {
-          title: "السلامة والامتثال",
-          list: [
-            "شهادة السلامة المهنية – كيبيك، كندا",
-            "شهادة العمل الحراري",
-            "شهادة العمل على ارتفاعات",
-            "شهادة WHMIS 2015",
-            "شهادة تأمين الإغلاق (Lockout)",
-          ],
-        },
-        {
-          title: "الأعمال والتطوير",
-          list: [
-            "شهادة ريادة الاعمال من جامعة عجمان",
-            "أساسيات الذكاء الاصطناعي (الإصدار الثاني V2) من IBM",
-            "أساسيات إدارة المشاريع من Microsoft"
-          ],
-        },
-      ],
-    },
-    testimonials: {
-      title: "آراء العملاء",
-      list: [
-        {
-          name: "أحمد ر.",
-          role: "الرئيس التنفيذي، SteelPro Manufacturing Ltd.",
-          text: "لقد أعجبت بقدرة معز على فهم تحدياتنا بسرعة وتصميم خطة نمو للأعمال كانت فعّالة بالفعل. احترافيته، وخبرته العميقة في الصناعة، ودعمه العملي تركوا أثراً دائماً.",
-        },
-        {
-          name: "سارة د.",
-          role: "نائب رئيس تطوير الأعمال",
-          text: "قمنا بتوظيف معز لتحسين مسار مبيعاتنا بين الشركات، وخلال ستة أشهر فقط، تحسّنت معدلات التحويل بشكل كبير. نهجه الاستراتيجي وشبكته القوية في قطاع الصلب فتحت أبواباً لم نكن نستطيع الوصول إليها بمفردنا.",
-        },
-        { name: "مارك ل.", 
-          role: "مدير، Titan Steel", 
-          text: "كان العمل مع معز نقطة تحول لشركتنا في توزيع الصلب. معرفته العميقة بالصناعة ورؤيته الدقيقة للسوق ساعدتنا على اكتشاف فرص جديدة والتوسع إلى الأسواق الدولية."
-        },
-      ],
-    },
-    contact: {
-      title: "اتصل بي",
-      subtitle: "هل لديك مشروع، مصنع، أو فكرة تحتاج إلى خبرة صناعية؟",
-      description: "تواصل معي لمناقشة كيفية تحسين العمليات أو تطوير الإنتاج.",
-      addressLabel: "العنوان",
-      address: "238 شارع كاثرين، مدينة فيكتوريافيل، مقاطعة كيبيك ، الرمز البريدي G6T 0Z5، كندا.",
-      phoneLabel: "الهاتف",
-      phone: "+4182628611",
-      emailLabel: "البريد الإلكتروني",
-      email: "contact@ironnetix.com",
-      cta: "أرسل رسالة",
-    },
-    footer: {
-      rights: "© 2025 معز نجوعي – جميع الحقوق محفوظة",
-    },
-  },
+   },
 }
 
 // State
-let currentLang = "en"
+let currentLang = "fr"
 let currentSlide = 0
 
 // DOM Elements
 const html = document.documentElement
-const body = document.body
 const menuBtn = document.getElementById("menuBtn")
 const mobileMenu = document.getElementById("mobileMenu")
 const langBtn = document.getElementById("langBtn")
@@ -273,20 +322,20 @@ document.querySelectorAll(".mobile-link").forEach((link) => {
 
 // Language Toggle
 function toggleLanguage() {
-  currentLang = currentLang === "en" ? "ar" : "en"
+  currentLang = currentLang === "fr" ? "en" : "fr"
   updateContent()
 
   // Update direction
-  if (currentLang === "ar") {
-    html.setAttribute("dir", "rtl")
-    html.setAttribute("lang", "ar")
-  } else {
+  if (currentLang === "en") {
     html.setAttribute("dir", "ltr")
     html.setAttribute("lang", "en")
+  } else {
+    html.setAttribute("dir", "ltr")
+    html.setAttribute("lang", "fr")
   }
 
   // Update language button text
-  langText.textContent = currentLang === "en" ? "العربية" : "English"
+  langText.textContent = currentLang === "fr" ? "English" : "Français"
 }
 
 langBtn.addEventListener("click", toggleLanguage)
@@ -338,7 +387,7 @@ function updateContent() {
   document.querySelector("#about .section-title").textContent = t.about.title
   const aboutHeading = document.querySelector(".about-heading")
   if (aboutHeading) {
-    aboutHeading.textContent = currentLang === "en" ? "Professional Industrial Expert" : "خبير صناعي محترف"
+    aboutHeading.textContent = currentLang === "fr" ? "Expert industriel professionnel" : "Professional Industrial Expert"
   }
   document.querySelector(".about-text").textContent = t.about.text
 
@@ -367,19 +416,32 @@ function updateContent() {
   document.querySelector("#why .section-title").textContent = t.why.title
   const whyCarouselItems = document.querySelectorAll(".why-carousel-item")
   const whyReasons = [
-    {
-      title: currentLang === "en" ? "International Experience" : "خبرة دولية",
-      text: t.why.reasons[0],
-    },
-    {
-      title: currentLang === "en" ? "Hands-On Expertise" : "خبرة عملية",
-      text: t.why.reasons[1] + (t.why.reasons[2] ? " " + t.why.reasons[2] : ""),
-    },
-    {
-      title: currentLang === "en" ? "Certified Professional" : "محترف معتمد",
-      text: t.why.reasons[3] + (t.why.reasons[4] ? " " + t.why.reasons[4] : ""),
-    },
-  ]
+  {
+    title:
+      currentLang === "fr"
+        ? "Expérience internationale"
+        : "International Experience",
+    text: t.why.reasons[0],
+  },
+  {
+    title:
+      currentLang === "fr"
+        ? "Expertise pratique"
+        : "Hands-On Expertise",
+    text:
+      t.why.reasons[1] +
+      (t.why.reasons[2] ? " " + t.why.reasons[2] : ""),
+  },
+  {
+    title:
+      currentLang === "fr"
+        ? "Professionnel certifié"
+        : "Certified Professional",
+    text:
+      t.why.reasons[3] +
+      (t.why.reasons[4] ? " " + t.why.reasons[4] : ""),
+  },
+]
   whyCarouselItems.forEach((item, index) => {
     if (whyReasons[index]) {
       item.querySelector(".why-carousel-title").textContent = whyReasons[index].title
@@ -434,19 +496,19 @@ function updateContent() {
 
   const contactFormTitle = document.querySelector(".contact-form-title")
   if (contactFormTitle) {
-    contactFormTitle.textContent = currentLang === "en" ? "Send a Message" : "أرسل رسالة"
+    contactFormTitle.textContent = currentLang === "fr" ? "Envoyer un message" : "Send a Message"
   }
 
   const contactInfoTitle = document.querySelector(".contact-info-title")
   if (contactInfoTitle) {
-    contactInfoTitle.textContent = currentLang === "en" ? "Contact Information" : "معلومات التواصل"
+    contactInfoTitle.textContent = currentLang === "fr" ? "Informations de contact" : "Contact Information"
   }
 
   const formLabels = document.querySelectorAll(".form-label")
   if (formLabels.length >= 3) {
-    formLabels[0].textContent = currentLang === "en" ? "Name" : "الاسم"
-    formLabels[1].textContent = currentLang === "en" ? "Email" : "البريد الإلكتروني"
-    formLabels[2].textContent = currentLang === "en" ? "Message" : "الرسالة"
+    formLabels[0].textContent = currentLang === "fr" ? "Nom" : "Name"
+    formLabels[1].textContent = currentLang === "fr" ? "E-mail" : "Email"
+    formLabels[2].textContent = currentLang === "fr" ? "Message" : "Message"
   }
 
   const contactLabels = document.querySelectorAll(".contact-info-label")
@@ -517,8 +579,16 @@ if (contactForm) {
     const email = formData.get("email")
     const message = formData.get("message")
 
-    const subject = encodeURIComponent(`Contact from ${name}`)
-    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)
+    const subject = encodeURIComponent( currentLang === "fr" ? `Contact de ${name}` : `Contact from ${name}`)
+    const body = encodeURIComponent(
+                  currentLang === "fr"
+                    ? `Nom : ${name}
+                       E-mail : ${email}
+                       Message : ${message}`
+                  : `Name: ${name}
+                     Email: ${email}
+                     Message: ${message}`
+                )
     window.location.href = `mailto:mimoumoez2025@gmail.com?subject=${subject}&body=${body}`
   })
 }
@@ -573,5 +643,10 @@ window.addEventListener("scroll", () => {
 
 // Initialize
 document.addEventListener("DOMContentLoaded", () => {
-  updateContent()
+    updateContent()
+
+    html.setAttribute("dir", "ltr")
+    html.setAttribute("lang", "fr")
+
+    langText.textContent = "English"
 })
