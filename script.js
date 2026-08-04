@@ -288,8 +288,8 @@ const content = {
     },
     footer: {
       rights: "© 2025 Moez Njouai – All Rights Reserved",
-   },
-}
+   }
+},
 
 // State
 let currentLang = "fr"
@@ -385,7 +385,10 @@ function updateContent() {
   if (heroBtn) heroBtn.textContent = t.hero.cta
 
   // Update about
-  document.querySelector("#about .section-title").textContent = t.about.title
+  const aboutTitle = document.querySelector("#about .section-title");
+    if (aboutTitle) {
+        aboutTitle.textContent = t.about.title;
+    }
   const aboutHeading = document.querySelector(".about-heading")
   if (aboutHeading) {
     aboutHeading.textContent = currentLang === "fr" ? "Expert industriel professionnel" : "Professional Industrial Expert"
