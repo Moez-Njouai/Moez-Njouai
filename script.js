@@ -18,7 +18,7 @@ const content = {
     subtitle: "Développeur d’affaires industrielles & Consultant en opérations techniques | Industries maritimes et lourdes",
     description:
       "Je fais le lien entre la stratégie de direction et l’exécution sur le terrain. J’aide les entreprises de fabrication de pointe, de construction navale et des industries lourdes à éliminer les goulots d’étranglement de la production, à réduire les pertes et à garantir un contrôle qualité irréprochable. Développeur d’affaires industrielles stratégique, je possède plus de 15 ans d’expérience pratique et opérationnelle dans la fabrication lourde, la maintenance navale et la fabrication de structures de haute précision. Spécialisé dans la coordination de la sous-traitance technique, les audits QA/QC et la gestion de projets complexes, j’adopte une approche entièrement axée sur les données et les résultats. Grâce à ma maîtrise des normes techniques (Niveau 3, WPS, AWS, ISO), à mon diplôme en entrepreneuriat de l’Université d’Ajman ainsi qu’à mes certifications en gestion de projet, analyse de données et ingénierie de l’intelligence artificielle, j’intègre les méthodes opérationnelles modernes aux industries lourdes traditionnelles.",
-    placeholder: "Commencez votre parcours vers l’excellence industrielle",
+    placeholder: "Vers l’excellence industrielle",
     cta: "Me contacter",
   },
 
