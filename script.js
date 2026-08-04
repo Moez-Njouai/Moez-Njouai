@@ -288,8 +288,9 @@ const content = {
     },
     footer: {
       rights: "© 2025 Moez Njouai – All Rights Reserved",
-   }
-},
+   },
+  },
+};
 
 // State
 let currentLang = "fr"
